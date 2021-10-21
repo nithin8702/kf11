@@ -5,6 +5,7 @@ data:
 kind: ConfigMap
 metadata:
   name: default-install-config-9h2h2b6hbk
+  namespace: default
 ---
 apiVersion: kubeflow.org/v1beta1
 kind: Profile
