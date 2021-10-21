@@ -13,6 +13,7 @@ spec:
     kind: Notebook
     plural: notebooks
     singular: notebook
+  # priorityClassName: system-node-critical
   scope: Namespaced
   subresources:
     status: {}
@@ -38,7 +39,6 @@ spec:
                 Important: Run "make" to regenerate code after modifying this file'
               properties:
                 spec:
-                  priorityClassName: "system-node-critical"
                   type: object
               type: object
           type: object
